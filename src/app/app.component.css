@@ -1,0 +1,13 @@
+p {
+  font-family: Lato;
+}
+
+.box {
+  width: 400px;
+  height: 100px;
+  background: red;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: yellowgreen;
+}
