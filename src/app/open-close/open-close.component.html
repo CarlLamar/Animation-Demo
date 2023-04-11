@@ -1,7 +1,12 @@
-<nav>
-  <button type="button" (click)="toggle()">Toggle Open/Close</button>
-</nav>
-
+<p class="para">When did Holy Angel University Founded?</p>
 <div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
-  <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
+  <p>The answer is {{ isOpen ? 'Wrong' : 'Correct' }}!</p>
 </div>
+<br />
+<div class="box" data-aos="fade-down"></div>
+<button class="button1" type="button">1969</button>
+<button class="button2" type="button">1945</button>
+<nav>
+  <button type="button" (click)="toggle()">1933</button>
+</nav>
+<button class="button3" type="button">2008</button>

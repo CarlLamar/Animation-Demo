@@ -19,7 +19,7 @@ import {
         style({
           height: '200px',
           opacity: 1,
-          backgroundColor: 'yellow',
+          backgroundColor: 'White',
         })
       ),
       state(
@@ -27,11 +27,11 @@ import {
         style({
           height: '100px',
           opacity: 0.8,
-          backgroundColor: 'blue',
+          backgroundColor: 'White',
         })
       ),
-      transition('open => closed', [animate('3s')]),
-      transition('closed => open', [animate('0.5s')]),
+      transition('open => closed', [animate('2s')]),
+      transition('closed => open', [animate('5s')]),
     ]),
   ],
 })
